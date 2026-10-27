@@ -1,0 +1,20 @@
+{
+  "name": "text-diff-tool",
+  "version": "1.0.0",
+  "description": "A browser-based, privacy-friendly line diff tool built with vanilla JavaScript and ES modules.",
+  "type": "module",
+  "private": true,
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage"
+  },
+  "devDependencies": {
+    "@vitest/coverage-v8": "^3.2.4",
+    "vitest": "^3.2.4"
+  }
+}
